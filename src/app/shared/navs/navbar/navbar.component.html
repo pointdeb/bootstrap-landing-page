@@ -1,0 +1,51 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" routerLink="/" >BOOTS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="routerLinkOptions" >
+          <a class="nav-link" routerLink="/" >Home</a>
+        </li>
+        <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="routerLinkOptions" >
+          <a class="nav-link" routerLink="/about" >About</a>
+        </li>
+        <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="routerLinkOptions">
+          <a class="nav-link" routerLink="/contact">Contact</a>
+        </li>
+        <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="routerLinkOptions">
+          <a class="nav-link" routerLink="/portfolio">Done</a>
+        </li>
+      </ul>
+      <hr>
+      <ul class="navbar-nav ml-auto nav-social">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.github.com/pointdeb"><i class="fa fa-github"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/developer.mg">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/stephano">
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.google-plus.com/developer.mg">
+            <i class="fa fa-google-plus"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.twitter.com/developer.mg">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
