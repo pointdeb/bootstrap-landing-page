@@ -1,0 +1,25 @@
+@import '../../../../scss/includes';
+
+section {
+  padding: 30px;
+
+  hr{
+    width: 50%;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  .row > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    text-transform: uppercase;
+  }
+}

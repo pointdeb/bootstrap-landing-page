@@ -3,6 +3,10 @@
 section {
   padding: 30px;
 
+  hr{
+    width: 40%;
+  }
+
   input {
     padding: 25px;
   }
@@ -15,17 +19,12 @@ section {
   form {
     width: 100%;
   }
-  h3 {
-    padding: $spacer;
+
+  h1 {
+    text-transform: uppercase;
   }
 
-  img {
-    width: 80%;
-  }
-  .row > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .card {
+    border: 0;
   }
 }

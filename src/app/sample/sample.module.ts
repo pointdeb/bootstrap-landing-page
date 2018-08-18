@@ -12,6 +12,8 @@ import { ServiceComponent } from './cards/service/service.component';
 import { SubscribeComponent } from './forms/subscribe/subscribe.component';
 import { DiscoverComponent } from './cards/discover/discover.component';
 import { AboutCardComponent } from './cards/about-card/about-card.component';
+import { ContactFormComponent } from './forms/contact-form/contact-form.component';
+import { FeatureComponent } from './cards/feature/feature.component';
 
 @NgModule({
   imports: [
@@ -19,6 +21,6 @@ import { AboutCardComponent } from './cards/about-card/about-card.component';
     SharedModule,
     RouterModule.forChild(SampleRoutes)
   ],
-  declarations: [HomeComponent, CoverComponent, AboutComponent, ContactComponent, PortfolioComponent, ServiceComponent, SubscribeComponent, DiscoverComponent, AboutCardComponent]
+  declarations: [HomeComponent, CoverComponent, AboutComponent, ContactComponent, PortfolioComponent, ServiceComponent, SubscribeComponent, DiscoverComponent, AboutCardComponent, ContactFormComponent, FeatureComponent]
 })
 export class SampleModule { }
