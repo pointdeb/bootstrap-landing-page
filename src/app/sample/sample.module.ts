@@ -8,6 +8,10 @@ import { SharedModule } from '../shared/shared.module';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { ServiceComponent } from './cards/service/service.component';
+import { SubscribeComponent } from './forms/subscribe/subscribe.component';
+import { DiscoverComponent } from './cards/discover/discover.component';
+import { AboutCardComponent } from './cards/about-card/about-card.component';
 
 @NgModule({
   imports: [
@@ -15,6 +19,6 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
     SharedModule,
     RouterModule.forChild(SampleRoutes)
   ],
-  declarations: [HomeComponent, CoverComponent, AboutComponent, ContactComponent, PortfolioComponent]
+  declarations: [HomeComponent, CoverComponent, AboutComponent, ContactComponent, PortfolioComponent, ServiceComponent, SubscribeComponent, DiscoverComponent, AboutCardComponent]
 })
 export class SampleModule { }

@@ -1,8 +1,8 @@
 $fa-font-path: '~font-awesome/fonts';
 
-// $primary: #000000;
-$primary: #563d7c;
-$secondary: #dfabdd;
+$primary: #000000;
+// $primary: #563d7c;
+$secondary: $primary;
 $light: lighten($primary, 10%);
 $dark: darken($primary, 10%);
 
@@ -14,6 +14,8 @@ $theme-colors: (
 );
 
 $icon-size: 20px;
+$icon-size-md: 40px;
+$icon-size-lg: 60px;
 
 // navbar
 

@@ -1,0 +1,16 @@
+.bg-light, .bg-dark {
+  color: color($primary) !important;
+  .btn-outline-primary {
+    border-color: color($primary) !important;
+    color: inherit !important;
+  }
+
+  .btn-outline-primary:hover {
+    border-color: $dark !important;
+  }
+}
+
+.btn-link {
+  color: inherit !important;
+}
+

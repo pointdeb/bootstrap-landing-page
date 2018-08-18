@@ -1,0 +1,17 @@
+@import '../../../../scss/includes';
+
+section {
+  padding: 30px;
+
+  input {
+    padding: 25px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 15px;
+  }
+  h3 {
+    padding: $spacer;
+  }
+}

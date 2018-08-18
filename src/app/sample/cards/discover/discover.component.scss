@@ -1,0 +1,18 @@
+@import '../../../../scss/includes';
+
+section {
+  background-image: url(../../../../assets/img/masjid.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  img {
+    width: 100%;
+  }
+  .row > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

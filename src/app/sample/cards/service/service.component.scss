@@ -1,0 +1,10 @@
+@import '../../../../scss/includes';
+
+section {
+  color: color($primary);
+  padding: 30px;
+  i {
+    margin: $spacer;
+    font-size: $icon-size-lg;
+  }
+}
