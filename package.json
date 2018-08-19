@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build-gh": "ng build --prod --aot --output-path=_gh_pages --base-href=https://pointdeb.github.io/ngx/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

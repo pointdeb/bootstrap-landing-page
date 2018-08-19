@@ -15,7 +15,7 @@ import { NoopAnimationsModule, BrowserAnimationsModule } from '@angular/platform
     BrowserModule,
     BrowserAnimationsModule,
     SharedModule,
-    RouterModule.forRoot(AppRoutes)
+    RouterModule.forRoot(AppRoutes, {useHash: true})
   ],
   providers: [],
   bootstrap: [AppComponent]
