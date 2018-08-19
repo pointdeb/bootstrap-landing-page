@@ -1,7 +1,10 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <app-navbar></app-navbar>
 <div class="main-container">
-  <router-outlet></router-outlet>
+  <router-outlet (activate)="routerChange()" (deactivate)="routerChange()" ></router-outlet>
+  <div class="loader-container" *ngIf="!isRouterActive">
+    <link rel="stylesheet" href="../assets/loader.css">
+    <div class="loader"></div>
+  </div>
 </div>
 <app-footer></app-footer>
-
